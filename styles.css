@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Be Vietnam Pro";
+}
+
+body {
+  height: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
