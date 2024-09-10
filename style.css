@@ -1,0 +1,170 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Be Vietnam Pro";
+}
+
+body {
+  height: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: last baseline;
+}
+
+a {
+  color: black;
+  padding: 1rem;
+  text-decoration-color: lightgray;
+  text-underline-offset: 4px;
+}
+
+a:hover {
+  text-decoration-color: black;
+  text-underline-offset: 1px;
+}
+
+.logo-text {
+  display: flex;
+}
+
+#slogan {
+  padding-left: 1rem;
+  font-weight: lighter;
+}
+
+main {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.images-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  position: relative;
+}
+
+h1 {
+  font-family: "Abyssinica SIL";
+  color: white;
+  font-size: 3rem;
+  position: absolute;
+  top: 20vw;
+  left: 35%;
+}
+
+h2 {
+  font-family: "Abyssinica";
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+svg {
+  position: absolute;
+  width: 3%;
+  top: 45vw;
+  right: 48.4%;
+}
+
+.background-image-1 {
+  background-image: url(https://raw.githubusercontent.com/ferniemann/njordhaven/main/assets/couch.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-image-2 {
+  background-image: url(https://raw.githubusercontent.com/ferniemann/njordhaven/main/assets/sessel.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1920px;
+  aspect-ratio: 1/1;
+}
+
+.background-image-3 {
+  background-image: url(https://raw.githubusercontent.com/ferniemann/njordhaven/main/assets/sessel-white.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  max-width: 1920px;
+  aspect-ratio: 1/1;
+}
+
+.background-image-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem;
+  line-height: 1.5rem;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-image-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem;
+  line-height: 1.5rem;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-image-6 {
+  background-image: url(https://raw.githubusercontent.com/ferniemann/njordhaven/main/assets/tische.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+.footer img {
+  filter: invert(100%);
+  padding-top: 2rem;
+}
+
+.legal {
+  font-weight: lighter;
+  font-size: smaller;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.legal p {
+  padding: 1rem;
+}
